@@ -1,0 +1,4 @@
+specVersion: '2.2'
+metadata:
+  name: 01_localjson_databinding
+type: application
