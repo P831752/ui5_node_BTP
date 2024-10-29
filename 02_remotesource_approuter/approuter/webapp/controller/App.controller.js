@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/json/JSONModel"],function(e,t){"use strict";return e.extend("sap.ui.demo.controller.App",{incrementBy1:function(){let e=this.getView().byId("counter");let t=parseInt(e.getText());let n=t+1;e.setText(n)},onInit:function(){let e=new t(sap.ui.require.toUrl("sap/ui/demo/Data.json"));this.getView().setModel(e)}})});
