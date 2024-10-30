@@ -29,7 +29,7 @@ Define UI5 middleware as Destination
 ### Deploy to BTP Cloud Foundry
 create package.json file in approuter folder
 Approuter, node JS base application to run on CloudFoundry
-create destination.json file with BTPsubaccount this information should be pushed to BTP CF after deploy
+create destination.json file with BTP subaccount this information should be pushed to BTP CF after deploy
 Define build script in main package.json file (mbt build) & run 'npm install -g mbt'
 create 'mta.yaml', deployment target of Multitarget application
 . Define Modules like approuter, ui5 
@@ -39,7 +39,9 @@ npm run build, creates mta_archives file
 cf login to CF
 cf deploy mta_archives/ui5_approuter_1.0.0.mtar
 
-### 03_remotesource_approuter
+### 03_Authorization_BTP
+Not working as expected
+
 
 
 
