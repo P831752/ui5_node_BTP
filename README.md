@@ -42,8 +42,7 @@ cf deploy mta_archives/ui5_approuter_1.0.0.mtar
 ### 03_Authorization_BTP
 Not working as expected
 
-
-
-
-
-
+### 05_SortGroupFilters
+Used Northwind oData service
+Proper List element in View
+Not yet deployed into system.
