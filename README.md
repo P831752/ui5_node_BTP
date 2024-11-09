@@ -46,3 +46,27 @@ Not working as expected
 Used Northwind oData service
 Proper List element in View
 Not yet deployed into system.
+
+## ----------------------------------------------------------- ##
+## Add new Project into same folder in GIT
+git init
+git add .
+git commit -m "basic view controller increment button"
+git remote add origin https://github.com/P831752/ui5_nodeserver.git
+git push -u origin main
+------------------------
+## Project setup
+create folder
+npm init -y
+npm install --global @ui5/cli
+ui5 init
+
+## git create new branch changes
+git checkout main
+git checkout JSONmodel_dataBinding
+
+git add .
+git branch -M JSONmodel_dataBinding
+git remote add origin https://github.com/P831752/ui5_nodeserver.git
+git push origin JSONmodel_dataBinding
+
